@@ -1,0 +1,57 @@
+/* normal flow */
+/* body {
+    width: 750px;
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;}
+    h1 {
+    background-color: #efefef;
+    padding: 10px;}
+    p {
+    width: 450px;} */
+
+    /* RELARTIVE POSITIONING */
+    /* p {
+        position: relative;
+        top: 10px;
+        left: 100px;} */
+
+        /* ABSOLUTE POSIONNING  */
+        /* in absolute posioning it ignores all the other elemnts ye khud upper chala jata hai aour baqi sub ko neche krdthe hai  */
+        /* h1 {
+            position: absolute;
+            top: 0px;
+            left: 500px;
+            width: 250px;}
+            p {
+            width: 450px;} */
+
+            /* FIXED POSITION */
+            /* h1 {
+                position: fixed;
+                top: 0px;
+                left: 50px;
+                padding: 10px;
+                margin: 0px;
+                width: 100%;
+                background-color: #efefef;}
+                p {
+                margin-top: 100px;} */
+
+                /* OVER-LAPPING ELEMNTS Z-INDAX */
+                h1 {
+                    position: fixed;
+                    top: 0px;
+                    left: 0px;
+                    margin: 0px;
+                    padding: 10px;
+                    width: 100%;
+                    background-color: #efefef;
+                    /* z-index: 10;} */
+                    p {
+                    position: relative;
+                    top: 70px;
+                    left: 70px;
+                    z-index: 2;
+                }
+
+              
