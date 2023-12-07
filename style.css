@@ -38,7 +38,7 @@
                 margin-top: 100px;} */
 
                 /* OVER-LAPPING ELEMNTS Z-INDAX */
-                h1 {
+                /* h1 {
                     position: fixed;
                     top: 0px;
                     left: 0px;
@@ -46,12 +46,67 @@
                     padding: 10px;
                     width: 100%;
                     background-color: #efefef;
-                    /* z-index: 10;} */
+                    z-index: 10;}
                     p {
                     position: relative;
                     top: 70px;
                     left: 70px;
-                    z-index: 2;
-                }
+                    z-index: ;
+                } */
+
+                /* FOATING ELEMNTS */
+                /* with float property width is must  */
+                /* blockquote {
+                    float: right;
+                    width: 275px;
+                    font-size: 130%;
+                    font-style: italic;
+                    font-family: Georgia, Times, serif;
+                    margin: 0px 0px 10px 10px;
+                    padding: 10px;
+                    border-top: 1px solid #665544;
+                    border-bottom: 1px solid #665544;} */
+                    
+                    /* side-by-side element */
+
+                    /* #container{
+                        width: 70%;
+                        border: 1px solid red;
+                    }
+                        p {
+                        width: 230px;
+                        float: right;
+                        margin: 5px;
+                        padding: 5px;
+                        background-color: #efefef;} */
+
+                        /* FLOATRS
+                        img{
+                            float: right;
+                        } */
+
+                        /* COLUMNS */
+                        .column1of1 {
+                            float: left;
+                            width: 500px;
+                            margin: 10px;
+                            padding: 10px;
+                            
+                            border: 1px solid green;
+                        }
+                            .column2of2 {
+                            float: left;
+                            width: 500px;
+                            margin: 10px;
+                            padding: 10px;
+                            border: 1px  solid red;
+                        }
+                        .column3of3 {
+                            float: left;
+                            width: 500px;
+                            padding: 10px;
+                            margin: 10px;
+                            border: 1px  solid blue;
+                        }
 
               
