@@ -155,7 +155,7 @@
                                 background-color: #efefef;} */
 
                                 /* 960 GS */
-                                * {
+                                /* * {
                                     font-family: Arial, Verdana, sans-serif;
                                     color: #665544;
                                     text-align: center;}
@@ -167,6 +167,12 @@
                                     height: 100px;}
                                     li {
                                     display: inline;
-                                    padding: 5px;}
+                                    padding: 5px;} */
+
+                                    /* MULTIPLE STYLE SHEETS IN CSS @IMPORT */
+                                    /* @import url('./test-stylesheet.css'); */
+                                    /* #heading1{
+                                        color: red;
+                                    } */
 
               
